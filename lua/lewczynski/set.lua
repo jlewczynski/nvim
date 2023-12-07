@@ -3,9 +3,11 @@ vim.g.mapleader = " "
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+
 local vo = vim.opt
 
-vo.guicursor = ""
+--vo.guicursor = ""
+vo.termguicolors = true
 
 vo.nu = true
 vo.relativenumber = true
